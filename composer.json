@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "onmotion\\survey\\": ""
+      "itworks24\\survey\\": ""
     }
   }
 }
