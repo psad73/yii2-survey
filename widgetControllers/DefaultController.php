@@ -1,16 +1,16 @@
 <?php
 
-namespace itworks24\survey\widgetControllers;
+namespace itworks24pl\survey\widgetControllers;
 
-use itworks24\survey\models\search\SurveySearch;
-use itworks24\survey\models\search\SurveyStatSearch;
-use itworks24\survey\models\Survey;
-use itworks24\survey\models\SurveyAnswer;
-use itworks24\survey\models\SurveyQuestion;
-use itworks24\survey\models\SurveyStat;
-use itworks24\survey\models\SurveyType;
-use itworks24\survey\SurveyInterface;
-use itworks24\survey\User;
+use itworks24pl\survey\models\search\SurveySearch;
+use itworks24pl\survey\models\search\SurveyStatSearch;
+use itworks24pl\survey\models\Survey;
+use itworks24pl\survey\models\SurveyAnswer;
+use itworks24pl\survey\models\SurveyQuestion;
+use itworks24pl\survey\models\SurveyStat;
+use itworks24pl\survey\models\SurveyType;
+use itworks24pl\survey\SurveyInterface;
+use itworks24pl\survey\User;
 use yii\base\Model;
 use yii\base\UserException;
 use yii\db\Expression;

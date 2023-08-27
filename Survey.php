@@ -6,10 +6,10 @@
  * Time: 10:09
  */
 
-namespace itworks24\survey;
+namespace itworks24pl\survey;
 
 
-use itworks24\survey\models\SurveyStat;
+use itworks24pl\survey\models\SurveyStat;
 use yii\db\Exception;
 use yii\db\Expression;
 use yii\web\ForbiddenHttpException;
@@ -100,7 +100,7 @@ class Survey extends \yii\base\Widget
 
     protected function findModel($id)
     {
-        if (($model = \itworks24\survey\models\Survey::findOne($id)) !== null) {
+        if (($model = \itworks24pl\survey\models\Survey::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

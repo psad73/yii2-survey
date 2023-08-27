@@ -6,7 +6,7 @@
  * Time: 15:43
  */
 
-namespace itworks24\survey;
+namespace itworks24pl\survey;
 
 
 interface SurveyInterface

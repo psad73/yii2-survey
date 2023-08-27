@@ -12,7 +12,7 @@ use yii\widgets\Pjax;
 
 
 /* @var $this yii\web\View */
-/* @var $question \itworks24\survey\models\SurveyQuestion */
+/* @var $question \itworks24pl\survey\models\SurveyQuestion */
 
 
 Pjax::begin([

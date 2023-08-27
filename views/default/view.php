@@ -8,18 +8,18 @@
 
 use cenotia\components\modal\RemoteModal;
 use kartik\select2\Select2;
-use itworks24\survey\models\search\SurveyStatSearch;
+use itworks24pl\survey\models\search\SurveyStatSearch;
 use kartik\editable\Editable;
 use kartik\helpers\Html;
 use wbraganca\dynamicform\DynamicFormWidget;
-use yii\bootstrap\BootstrapPluginAsset;
+use yii\bootstrap4\BootstrapPluginAsset;
 use yii\helpers\Url;
 use yii\web\JsExpression;
 use yii\widgets\ActiveForm;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $survey \itworks24\survey\models\Survey */
+/* @var $survey \itworks24pl\survey\models\Survey */
 /* @var $respondentsCount integer */
 /* @var $withUserSearch boolean */
 

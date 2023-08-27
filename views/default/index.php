@@ -3,14 +3,14 @@
 /* @var $this yii\web\View */
 
 use cenotia\components\modal\RemoteModal;
-use yii\bootstrap\BootstrapPluginAsset;
-use yii\bootstrap\Modal;
+use yii\bootstrap4\BootstrapPluginAsset;
+use yii\bootstrap4\Modal;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\widgets\ListView;
 use yii\widgets\Pjax;
 
-/* @var $searchModel itworks24\survey\models\search\SurveySearch */
+/* @var $searchModel itworks24pl\survey\models\search\SurveySearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 
@@ -31,7 +31,7 @@ BootstrapPluginAsset::register($this);
             'dataProvider' => $dataProvider,
             'itemOptions' => ['class' => 'item'],
             'itemView' => function ($model, $key, $index, $widget) {
-                /** @var $model \itworks24\survey\models\Survey */
+                /** @var $model \itworks24pl\survey\models\Survey */
                 $survey = $model;
                 $image = $survey->getImage();
                 ob_start();

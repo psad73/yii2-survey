@@ -7,7 +7,7 @@
  */
 
 use cenotia\components\modal\RemoteModal;
-use itworks24\survey\models\SurveyStat;
+use itworks24pl\survey\models\SurveyStat;
 use kartik\editable\Editable;
 use kartik\helpers\Html;
 use wbraganca\dynamicform\DynamicFormWidget;
@@ -16,7 +16,7 @@ use yii\bootstrap\Modal;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $survey \itworks24\survey\models\Survey */
+/* @var $survey \itworks24pl\survey\models\Survey */
 /* @var $stat SurveyStat */
 
 

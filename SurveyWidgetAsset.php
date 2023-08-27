@@ -6,7 +6,7 @@
  * Time: 14:18
  */
 
-namespace itworks24\survey;
+namespace itworks24pl\survey;
 
 
 use yii\web\AssetBundle;

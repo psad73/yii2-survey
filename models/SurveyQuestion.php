@@ -1,6 +1,6 @@
 <?php
 
-namespace itworks24\survey\models;
+namespace itworks24pl\survey\models;
 
 
 use Yii;

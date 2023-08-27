@@ -10,7 +10,7 @@ use vova07\imperavi\Widget;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-/** @var $question \itworks24\survey\models\SurveyQuestion */
+/** @var $question \itworks24pl\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 
 foreach ($question->answers as $i => $answer) {

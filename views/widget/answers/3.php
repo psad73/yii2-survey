@@ -6,10 +6,10 @@
  * Time: 13:59
  */
 
-use itworks24\survey\models\SurveyUserAnswer;
+use itworks24pl\survey\models\SurveyUserAnswer;
 use yii\helpers\Html;
 
-/** @var $question \itworks24\survey\models\SurveyQuestion */
+/** @var $question \itworks24pl\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 /** @var $readonly boolean */
 

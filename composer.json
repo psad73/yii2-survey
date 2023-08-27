@@ -1,5 +1,5 @@
 {
-  "name": "itworks24/yii2-survey",
+  "name": "itworks24pl/yii2-survey",
   "description": "survey module for Yii2 application",
   "type": "yii2-extension",
   "keywords": ["yii2","extension","module","widget", "survey", "polls"],
@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "itworks24\\survey\\": ""
+      "itworks24pl\\survey\\": ""
     }
   }
 }

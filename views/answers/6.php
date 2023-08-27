@@ -9,7 +9,7 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-/** @var $question \itworks24\survey\models\SurveyQuestion */
+/** @var $question \itworks24pl\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 
 echo 'Will be presented one text field where respondent can enter the answer in free form';

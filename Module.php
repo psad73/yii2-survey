@@ -1,6 +1,6 @@
 <?php
 
-namespace itworks24\survey;
+namespace itworks24pl\survey;
 
 use yii\base\UserException;
 use yii\helpers\FileHelper;
@@ -31,8 +31,8 @@ class Module extends \yii\base\Module
 
         if (empty($this->controllerNamespace)) {
             $this->controllerNamespace = \Yii::$app->controllerNamespace === 'backend\controllers'
-                ? 'itworks24\survey\controllers'
-                : 'itworks24\survey\widgetControllers';
+                ? 'itworks24pl\survey\controllers'
+                : 'itworks24pl\survey\widgetControllers';
         }
 
         parent::init();

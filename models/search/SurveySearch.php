@@ -1,14 +1,14 @@
 <?php
 
-namespace itworks24\survey\models\search;
+namespace itworks24pl\survey\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use itworks24\survey\models\Survey;
+use itworks24pl\survey\models\Survey;
 
 /**
- * SurveySearch represents the model behind the search form about `itworks24\survey\models\Survey`.
+ * SurveySearch represents the model behind the search form about `itworks24pl\survey\models\Survey`.
  */
 class SurveySearch extends Survey
 {

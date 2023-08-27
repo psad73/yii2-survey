@@ -10,14 +10,14 @@ use kartik\dialog\Dialog;
 use kartik\editable\Editable;
 use kartik\helpers\Html;
 use kartik\select2\Select2;
-use itworks24\yii2\widget\upload\crop\UploadCrop;
+use itworks24pl\yii2\widget\upload\crop\UploadCrop;
 use yii\helpers\Url;
 use yii\web\JsExpression;
 use yii\widgets\ActiveForm;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $survey \itworks24\survey\models\Survey */
+/* @var $survey \itworks24pl\survey\models\Survey */
 /* @var $withUserSearch boolean */
 
 // widget with default options

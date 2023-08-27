@@ -11,7 +11,7 @@ use kartik\helpers\Html;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $survey \itworks24\survey\models\Survey */
+/* @var $survey \itworks24pl\survey\models\Survey */
 
 ?>
 

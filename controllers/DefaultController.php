@@ -1,15 +1,15 @@
 <?php
 
-namespace itworks24\survey\controllers;
+namespace itworks24pl\survey\controllers;
 
-use itworks24\survey\models\search\SurveySearch;
-use itworks24\survey\models\search\SurveyStatSearch;
-use itworks24\survey\models\Survey;
-use itworks24\survey\models\SurveyAnswer;
-use itworks24\survey\models\SurveyQuestion;
-use itworks24\survey\models\SurveyStat;
+use itworks24pl\survey\models\search\SurveySearch;
+use itworks24pl\survey\models\search\SurveyStatSearch;
+use itworks24pl\survey\models\Survey;
+use itworks24pl\survey\models\SurveyAnswer;
+use itworks24pl\survey\models\SurveyQuestion;
+use itworks24pl\survey\models\SurveyStat;
 use Imagine\Image\Box;
-use itworks24\survey\SurveyInterface;
+use itworks24pl\survey\SurveyInterface;
 use Yii;
 use yii\base\Model;
 use yii\base\UserException;
