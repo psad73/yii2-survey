@@ -6,7 +6,7 @@
  * Time: 13:37
  */
 
-/** @var $question \onmotion\survey\models\SurveyQuestion */
+/** @var $question \itworks24\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 /** @var $readonly boolean */
 

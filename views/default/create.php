@@ -13,7 +13,7 @@ use yii\helpers\Url;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $survey \onmotion\survey\models\Survey */
+/* @var $survey \itworks24\survey\models\Survey */
 /* @var $withUserSearch boolean */
 
 $this->title = Yii::t('survey', 'Create new survey');

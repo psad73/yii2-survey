@@ -6,7 +6,7 @@
  * Time: 13:37
  */
 
-/** @var $question \onmotion\survey\models\SurveyQuestion */
+/** @var $question \itworks24\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 
 echo $this->render('/answers/view/' . $question->survey_question_type, ['question' => $question]);

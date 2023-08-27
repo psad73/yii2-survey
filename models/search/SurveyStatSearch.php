@@ -1,14 +1,14 @@
 <?php
 
-namespace onmotion\survey\models\search;
+namespace itworks24\survey\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use onmotion\survey\models\SurveyStat;
+use itworks24\survey\models\SurveyStat;
 
 /**
- * SurveyStatSearch represents the model behind the search form about `onmotion\survey\models\SurveyStat`.
+ * SurveyStatSearch represents the model behind the search form about `itworks24\survey\models\SurveyStat`.
  */
 class SurveyStatSearch extends SurveyStat
 {

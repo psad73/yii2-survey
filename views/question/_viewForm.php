@@ -7,7 +7,7 @@
  */
 
 
-use onmotion\survey\models\SurveyType;
+use itworks24\survey\models\SurveyType;
 use kartik\editable\Editable;
 use kartik\helpers\Html;
 use kartik\select2\Select2;
@@ -19,7 +19,7 @@ use yii\widgets\Pjax;
 
 
 /* @var $this yii\web\View */
-/* @var $question \onmotion\survey\models\SurveyQuestion */
+/* @var $question \itworks24\survey\models\SurveyQuestion */
 /* @var $number integer */
 
 

@@ -6,7 +6,7 @@
  * Time: 15:43
  */
 
-namespace onmotion\survey;
+namespace itworks24\survey;
 
 
 interface SurveyInterface

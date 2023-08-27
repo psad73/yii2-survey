@@ -1,15 +1,15 @@
 <?php
 
-namespace onmotion\survey\controllers;
+namespace itworks24\survey\controllers;
 
-use onmotion\survey\models\search\SurveySearch;
-use onmotion\survey\models\search\SurveyStatSearch;
-use onmotion\survey\models\Survey;
-use onmotion\survey\models\SurveyAnswer;
-use onmotion\survey\models\SurveyQuestion;
-use onmotion\survey\models\SurveyStat;
+use itworks24\survey\models\search\SurveySearch;
+use itworks24\survey\models\search\SurveyStatSearch;
+use itworks24\survey\models\Survey;
+use itworks24\survey\models\SurveyAnswer;
+use itworks24\survey\models\SurveyQuestion;
+use itworks24\survey\models\SurveyStat;
 use Imagine\Image\Box;
-use onmotion\survey\SurveyInterface;
+use itworks24\survey\SurveyInterface;
 use Yii;
 use yii\base\Model;
 use yii\base\UserException;

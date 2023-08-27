@@ -6,7 +6,7 @@
  * Time: 14:18
  */
 
-namespace onmotion\survey;
+namespace itworks24\survey;
 
 
 use yii\web\AssetBundle;

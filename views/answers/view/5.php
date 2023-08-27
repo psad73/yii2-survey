@@ -6,13 +6,13 @@
  * Time: 13:59
  */
 
-use onmotion\survey\models\SurveyUserAnswer;
+use itworks24\survey\models\SurveyUserAnswer;
 use kartik\slider\Slider;
 use vova07\imperavi\Widget;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
-/** @var $question \onmotion\survey\models\SurveyQuestion */
+/** @var $question \itworks24\survey\models\SurveyQuestion */
 /** @var $form \yii\widgets\ActiveForm */
 
 echo Html::beginTag('div', ['class' => 'answers-stat']);

@@ -1,11 +1,11 @@
 <?php
 
-namespace onmotion\survey\controllers;
+namespace itworks24\survey\controllers;
 
-use onmotion\survey\models\Survey;
-use onmotion\survey\models\SurveyAnswer;
-use onmotion\survey\models\SurveyQuestion;
-use onmotion\survey\models\SurveyType;
+use itworks24\survey\models\Survey;
+use itworks24\survey\models\SurveyAnswer;
+use itworks24\survey\models\SurveyQuestion;
+use itworks24\survey\models\SurveyType;
 use vova07\imperavi\actions\GetAction;
 use yii\base\Event;
 use yii\base\Model;

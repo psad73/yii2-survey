@@ -8,7 +8,7 @@
 
 use cenotia\components\modal\RemoteModal;
 use kartik\select2\Select2;
-use onmotion\survey\models\search\SurveyStatSearch;
+use itworks24\survey\models\search\SurveyStatSearch;
 use kartik\editable\Editable;
 use kartik\helpers\Html;
 use wbraganca\dynamicform\DynamicFormWidget;
@@ -19,7 +19,7 @@ use yii\widgets\ActiveForm;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $survey \onmotion\survey\models\Survey */
+/* @var $survey \itworks24\survey\models\Survey */
 /* @var $respondentsCount integer */
 /* @var $withUserSearch boolean */
 

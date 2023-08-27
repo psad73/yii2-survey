@@ -1,6 +1,6 @@
 <?php
 
-namespace onmotion\survey;
+namespace itworks24\survey;
 
 use yii\base\UserException;
 use yii\helpers\FileHelper;
@@ -31,8 +31,8 @@ class Module extends \yii\base\Module
 
         if (empty($this->controllerNamespace)) {
             $this->controllerNamespace = \Yii::$app->controllerNamespace === 'backend\controllers'
-                ? 'onmotion\survey\controllers'
-                : 'onmotion\survey\widgetControllers';
+                ? 'itworks24\survey\controllers'
+                : 'itworks24\survey\widgetControllers';
         }
 
         parent::init();

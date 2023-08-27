@@ -10,7 +10,7 @@ use yii\helpers\Url;
 use yii\widgets\ListView;
 use yii\widgets\Pjax;
 
-/* @var $searchModel onmotion\survey\models\search\SurveySearch */
+/* @var $searchModel itworks24\survey\models\search\SurveySearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 
@@ -31,7 +31,7 @@ BootstrapPluginAsset::register($this);
             'dataProvider' => $dataProvider,
             'itemOptions' => ['class' => 'item'],
             'itemView' => function ($model, $key, $index, $widget) {
-                /** @var $model \onmotion\survey\models\Survey */
+                /** @var $model \itworks24\survey\models\Survey */
                 $survey = $model;
                 $image = $survey->getImage();
                 ob_start();

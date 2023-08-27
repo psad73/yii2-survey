@@ -6,10 +6,10 @@
  * Time: 10:09
  */
 
-namespace onmotion\survey;
+namespace itworks24\survey;
 
 
-use onmotion\survey\models\SurveyStat;
+use itworks24\survey\models\SurveyStat;
 use yii\db\Exception;
 use yii\db\Expression;
 use yii\web\ForbiddenHttpException;
@@ -100,7 +100,7 @@ class Survey extends \yii\base\Widget
 
     protected function findModel($id)
     {
-        if (($model = \onmotion\survey\models\Survey::findOne($id)) !== null) {
+        if (($model = \itworks24\survey\models\Survey::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
